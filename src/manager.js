@@ -11,7 +11,9 @@ const options = commandLineArgs(optionDefinitions);
 
 
 io.on('connection', function(socket) {
-    socket.on('connect', () => console.log('connect'));
+    console.log('connect');
     socket.on('disconnect', () => console.log('disconnect'));
 });
 server.listen(options.port || 3000);
+
+console.log('listening on: ' + options.port || 3000);
