@@ -1,0 +1,19 @@
+{
+  "name": "avanti-manager",
+  "version": "0.1.0",
+  "description": "",
+  "main": "avanti.js",
+  "dependencies": {
+    "socket.io": "^1.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IONlu/avanti-manager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IONlu/avanti-manager/issues"
+  },
+  "homepage": "https://github.com/IONlu/avanti-manager#readme"
+}
